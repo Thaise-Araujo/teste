@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>🐾 PetShop Amigo Fiel</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container">
+    <header>
+      <h1>🐾 PetShop Amigo Fiel</h1>
+      <p class="subtitle">Sistema desenvolvido pelo Grupo Cuidadores Especiais</p>
+    </header>
+
+    <div class="cards-info">
+      <div class="card">
+        <h3>Animais Cadastrados</h3>
+        <span class="numero" id="total-animais">0</span>
+      </div>
+      <div class="card">
+        <h3>Serviços Agendados</h3>
+        <span class="numero" id="total-servicos">0</span>
+      </div>
+    </div>
+
+    <div class="area-resultados" id="resultado">
+      😊 Bem-vindo ao sistema! Clique nos botões abaixo.
+    </div>
+
+    <div class="botoes">
+      <button onclick="mostrarTelaCadastroAnimal()"> Cadastrar Animal 🐕</button>
+      <button onclick="mostrarTelaCadastroUsuario()"> Cadastrar Clientes 👩‍💼</button>
+      <button onclick="mostrarTelaAgendarServico()"> Agendar Serviço 🗓️</button>
+      <button onclick="mostrarServicosAgendados()"> Serviços Agendados 📋</button>
+      <button onclick="mostrarAnimaisCadastrados()"> Animais Cadastrados 🐾</button>
+      <button onclick="mostrarClientes()"> Clientes 👥</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script> <!-- Compilado do TypeScript -->
+</body>
+</html>
